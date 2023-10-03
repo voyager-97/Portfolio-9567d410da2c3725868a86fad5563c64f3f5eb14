@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>My Projects</title> 
+        <link rel = "icon" href = "assets/J.png" type = "image/x-icon">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+      </head>
+    <body>
+        <%- include('partials/navbar.ejs') %>
+        <section id="project" class="project-section">
+            <div class="container">
+            <h2>Projects</h2> 
+                <p class="project-description">I worked on some projects to upskill myself!
+                </p>
+                <div class="sub-sections">
+                    <div class="sub-section">
+                    <h3>Career Guide</h3>
+                    <p>This website is for College and students. Colleges and students can register themselves.
+                        Students can know which profession is meant for them and best colleges offering courses that helps to persue their career. 
+                    </p>
+
+                    </div>
+                    <div class="sub-section">
+                        <h3>Random password  generator</h3>
+                        <p>This application help user to generator a random password of length 8
+                        </p>
+                    </div>
+                    <div class="sub-section">
+                        <h3>Online Book store</h3>
+                        <p>This project is mainly developed for bookstores and shops to digitize the book-purchasing process. The aim is to create 
+                            an efficient and reliable online bookselling platform. It also records sold and stock books automatically in the database.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('partials/footer.ejs') %>
+    </body>
+</html>
